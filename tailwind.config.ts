@@ -17,6 +17,8 @@ const config: Config = {
         cardSecondary: "#EFEFEF",
         bgSecondary: "#E5E5E5",
         buttonHeader: "#8BD3BF",
+        numberBg: "#c8dcbc",
+        textNumber: "#2a5934",
       },
       boxShadow: {
         buttonMainShadow: "4px 6px 12px 0 rgba(251, 181, 80, 0.6)",
@@ -28,6 +30,7 @@ const config: Config = {
         gridChoosingUs: "440px minmax(0, 1fr)",
         gridChoosingUsLg: "280px minmax(0, 1fr)",
         gridTestimonials: "300px minmax(0, 1fr)",
+        gridCulture: "180px minmax(0, 1fr)",
       },
     },
   },
