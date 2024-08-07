@@ -1,3 +1,4 @@
+import daisyui from "daisyui";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -8,13 +9,31 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        main: "#4D918F",
+        buttonMain: "#F7CA89",
+        buttonHoverMain: "#DBB57D",
+        textPrimary: "#9FE2D0",
+        cardSecondary: "#EFEFEF",
+        bgSecondary: "#E5E5E5",
+        buttonHeader: "#8BD3BF",
+      },
+      boxShadow: {
+        buttonMainShadow: "4px 6px 12px 0 rgba(251, 181, 80, 0.6)",
+        imageJumbotronShadow: "0 0 12px 12px rgba(0, 0, 0, 0.18)",
+        cardChoosingUsShadow: "-14px 12px 12px 2px rgba(0, 0, 0, 0.13)",
+        cardCSImgShadow: "0 4px 4px 0px rgba(0, 0, 0, 0.25)",
+      },
+      gridTemplateColumns: {
+        gridChoosingUs: "440px minmax(0, 1fr)",
+        gridChoosingUsLg: "280px minmax(0, 1fr)",
+        gridTestimonials: "300px minmax(0, 1fr)",
       },
     },
   },
-  plugins: [],
+  daisyui: {
+    themes: ["light", "dark", "cupcake"],
+  },
+  plugins: [daisyui],
 };
 export default config;
