@@ -66,13 +66,13 @@ export default function Header() {
             </Link>
           </li>
           <li>
-            <Link href="/">Product</Link>
+            <Link href="/services">Services</Link>
           </li>
           <li>
-            <Link href="/about-us">About Us</Link>
+            <Link href="/about-us">About</Link>
           </li>
           <li>
-            <Link href="/">Team</Link>
+            <Link href="/teams">Teams</Link>
           </li>
         </ul>
       </div>

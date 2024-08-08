@@ -1,36 +1,40 @@
+import Jumbotron from "@/components/Jumbotron";
 import Image from "next/image";
 
 export default function AboutUs() {
+  const jumbotronAboutUs = (
+    <>
+      <div className="wrapper-text mx-auto lg:mx-[170px] lg:pt-4">
+        <h1 className="mt-10 w-full text-3xl font-extrabold leading-relaxed text-textPrimary drop-shadow-lg lg:mt-0 lg:w-5/6 xl:w-[600px]">
+          Om Swastiastu, Salam dari Perawat Ciptaning Homecare
+        </h1>
+        <p className="my-5 w-full text-justify text-sm font-normal leading-loose text-white lg:w-[570px]">
+          Established in 2023, Ciptaning Homecare has quickly become a trusted
+          name in home healthcare services. Our mission is to provide
+          personalized, compassionate, and professional care to individuals in
+          the comfort of their own homes. <br /> From post-operative care to
+          elderly assistance, our highly trained and dedicated staff are
+          committed to ensuring the well-being and dignity of every client. With
+          a focus on quality and reliability, Ciptaning Homecare stands as a
+          beacon of excellence, delivering peace of mind to families and
+          enhancing the quality of life for those we serve.
+        </p>
+      </div>
+      <div className="h-fit w-fit">
+        <Image
+          src="/nurse-hd.png"
+          alt="a doctor and a nurse"
+          width={1000}
+          height={1000}
+          className="h-full w-full"
+        />
+      </div>
+    </>
+  );
   return (
     <>
       {/* Jumbotron */}
-      <section className="wrapper flex min-h-screen flex-col-reverse items-center justify-between bg-main p-4 lg:flex-row lg:p-0 xl:min-h-[75vh]">
-        <div className="wrapper-text mx-auto lg:mx-[170px] lg:pt-4">
-          <h1 className="mt-10 w-full text-3xl font-extrabold leading-relaxed text-textPrimary drop-shadow-lg lg:mt-0 lg:w-5/6 xl:w-[600px]">
-            Om Swastiastu, Salam dari Perawat Ciptaning Homecare
-          </h1>
-          <p className="my-5 w-full text-justify text-sm font-normal leading-loose text-white lg:w-[570px]">
-            Established in 2023, Ciptaning Homecare has quickly become a trusted
-            name in home healthcare services. Our mission is to provide
-            personalized, compassionate, and professional care to individuals in
-            the comfort of their own homes. <br /> From post-operative care to
-            elderly assistance, our highly trained and dedicated staff are
-            committed to ensuring the well-being and dignity of every client.
-            With a focus on quality and reliability, Ciptaning Homecare stands
-            as a beacon of excellence, delivering peace of mind to families and
-            enhancing the quality of life for those we serve.
-          </p>
-        </div>
-        <div className="h-fit w-fit">
-          <Image
-            src="/nurse-hd.png"
-            alt="a doctor and a nurse"
-            width={1000}
-            height={1000}
-            className="h-full w-full"
-          />
-        </div>
-      </section>
+      <Jumbotron content={jumbotronAboutUs} />
       {/* Why We Build This */}
       <div className="wrapper h-fit p-10 sm:grid sm:grid-cols-2 xl:p-40">
         <div className="wrapper-image-build h-fit w-fit">
