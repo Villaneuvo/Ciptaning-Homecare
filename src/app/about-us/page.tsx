@@ -32,7 +32,7 @@ export default function AboutUs() {
         </div>
       </section>
       {/* Why We Build This */}
-      <div className="wrapper grid h-[85vh] grid-cols-2 p-40">
+      <div className="wrapper h-fit p-10 sm:grid sm:grid-cols-2 xl:p-40">
         <div className="wrapper-image-build h-fit w-fit">
           <Image
             src="/hospital-building-hd.png"
@@ -42,7 +42,7 @@ export default function AboutUs() {
             className="h-full w-full"
           />
         </div>
-        <div className="wrapper-text-build my-auto h-fit w-[690px] translate-x-[-13rem] bg-main p-5">
+        <div className="wrapper-text-build my-auto h-fit bg-main p-5 shadow-lg xl:w-[690px] xl:translate-x-[-13rem]">
           <h1 className="mt-10 text-3xl font-extrabold leading-relaxed text-textPrimary drop-shadow-lg lg:mt-0">
             Why We Build This
           </h1>
@@ -52,7 +52,7 @@ export default function AboutUs() {
             ensuring the comfort and trust of their families.
             <br />
             <br />
-            All Sri Rahayu Homecare Nurses are guaranteed to have formal
+            All Ciptaning Homecare Nurses are guaranteed to have formal
             education in Nursing. With youthful spirit, effective communication,
             and patient comfort as our top priorities, we are committed to
             delivering excellent care.
@@ -65,8 +65,8 @@ export default function AboutUs() {
       </div>
 
       {/* Our Journey */}
-      <div className="mx-4 grid h-fit grid-cols-2 md:mx-10 lg:mx-40 lg:mb-20">
-        <div className="wrapper-choosing-us mt-12 items-center lg:mt-24">
+      <div className="mx-4 mt-5 grid h-fit grid-cols-1 p-5 sm:grid-cols-2 md:mx-10 lg:mx-40 lg:mb-20 lg:p-0 xl:mt-0">
+        <div className="wrapper-culture mr-5">
           <h2 className="text-md font-extrabold uppercase text-main opacity-65">
             Our Culture
           </h2>
@@ -79,11 +79,11 @@ export default function AboutUs() {
             to providing the highest quality care to our clients.
           </p>
           <div className="my-5">
-            <h2 className="bg-numberBg text-textNumber my-auto mb-2 h-fit w-fit rounded-lg p-1 font-bold tracking-widest">
+            <h2 className="my-auto mb-2 h-fit w-fit rounded-lg bg-numberBg p-1 font-bold tracking-widest text-textNumber">
               01
             </h2>
-            <div className="grid-cols-gridCulture grid w-5/6 bg-cardSecondary">
-              <div className="h-40 w-40">
+            <div className="w-5/6 bg-cardSecondary shadow-md xl:grid xl:grid-cols-gridCulture">
+              <div className="h-full w-full xl:h-44 xl:w-44">
                 <Image
                   src="/patient-room.jpg"
                   alt="a nurse with a patient"
@@ -92,9 +92,9 @@ export default function AboutUs() {
                   className="h-full w-full"
                 />
               </div>
-              <div className="my-auto">
+              <div className="my-auto p-3 lg:mx-3">
                 <h3 className="mb-2 font-semibold">Compassionate Care</h3>
-                <p className="mr-5 text-[12px]">
+                <p className="text-justify text-[12px] xl:mr-5">
                   At Ciptaning Homecare, compassion is at the heart of
                   everything we do. We treat every patient with the utmost
                   respect and dignity, ensuring their comfort and well-being.
@@ -103,11 +103,11 @@ export default function AboutUs() {
             </div>
           </div>
           <div className="my-5">
-            <h2 className="bg-numberBg text-textNumber my-auto mb-2 h-fit w-fit rounded-lg p-1 font-bold tracking-widest">
+            <h2 className="my-auto mb-2 h-fit w-fit rounded-lg bg-numberBg p-1 font-bold tracking-widest text-textNumber">
               02
             </h2>
-            <div className="grid-cols-gridCulture grid w-5/6 bg-cardSecondary">
-              <div className="h-40 w-40">
+            <div className="w-5/6 bg-cardSecondary shadow-md xl:grid xl:grid-cols-gridCulture">
+              <div className="h-full w-full xl:h-44 xl:w-44">
                 <Image
                   src="/patient-room.jpg"
                   alt="a nurse with a patient"
@@ -116,9 +116,9 @@ export default function AboutUs() {
                   className="h-full w-full"
                 />
               </div>
-              <div className="my-auto">
+              <div className="my-auto p-3 lg:mx-3">
                 <h3 className="mb-2 font-semibold">Integrity and Trust</h3>
-                <p className="mr-5 text-[12px]">
+                <p className="text-justify text-[12px] xl:mr-5">
                   Integrity is a cornerstone of our company values. We build
                   trust with our clients and their families through honesty,
                   transparency, and ethical practices.
@@ -127,11 +127,11 @@ export default function AboutUs() {
             </div>
           </div>
           <div className="my-5">
-            <h2 className="bg-numberBg text-textNumber my-auto mb-2 h-fit w-fit rounded-lg p-1 font-bold tracking-widest">
+            <h2 className="my-auto mb-2 h-fit w-fit rounded-lg bg-numberBg p-1 font-bold tracking-widest text-textNumber">
               03
             </h2>
-            <div className="grid-cols-gridCulture grid w-5/6 bg-cardSecondary">
-              <div className="h-40 w-40">
+            <div className="w-5/6 bg-cardSecondary shadow-md xl:grid xl:grid-cols-gridCulture">
+              <div className="h-full w-full xl:h-44 xl:w-44">
                 <Image
                   src="/patient-room.jpg"
                   alt="a nurse with a patient"
@@ -140,9 +140,9 @@ export default function AboutUs() {
                   className="h-full w-full"
                 />
               </div>
-              <div className="my-auto">
+              <div className="my-auto p-3 lg:mx-3">
                 <h3 className="mb-2 font-semibold">Professional Growth</h3>
-                <p className="mr-5 text-[12px]">
+                <p className="text-justify text-[12px] xl:mr-5">
                   Ciptaning Homecare provides ongoing training and opportunities
                   for career advancement, empowering our staff to reach their
                   full potential and achieve their career goals.
@@ -151,11 +151,11 @@ export default function AboutUs() {
             </div>
           </div>
           <div className="my-5">
-            <h2 className="bg-numberBg text-textNumber my-auto mb-2 h-fit w-fit rounded-lg p-1 font-bold tracking-widest">
+            <h2 className="my-auto mb-2 h-fit w-fit rounded-lg bg-numberBg p-1 font-bold tracking-widest text-textNumber">
               04
             </h2>
-            <div className="grid-cols-gridCulture grid w-5/6 bg-cardSecondary">
-              <div className="h-40 w-40">
+            <div className="w-5/6 bg-cardSecondary shadow-md xl:grid xl:grid-cols-gridCulture">
+              <div className="h-full w-full xl:h-44 xl:w-44">
                 <Image
                   src="/patient-room.jpg"
                   alt="a nurse with a patient"
@@ -164,9 +164,9 @@ export default function AboutUs() {
                   className="h-full w-full"
                 />
               </div>
-              <div className="my-auto">
+              <div className="my-auto p-3 lg:mx-3">
                 <h3 className="mb-2 font-semibold">Employee Well-being</h3>
-                <p className="mr-5 text-[12px]">
+                <p className="text-justify text-[12px] xl:mr-5">
                   The well-being of our employees is a top priority. We offer a
                   supportive and nurturing work environment, with resources and
                   programs designed to promote physical, mental, and emotional
@@ -177,7 +177,7 @@ export default function AboutUs() {
           </div>
         </div>
 
-        <div className="mt-24">
+        <div className="wrapper-journey ml-5">
           <h2 className="text-md font-extrabold uppercase text-main opacity-65">
             Our Journey
           </h2>
@@ -193,16 +193,18 @@ export default function AboutUs() {
               2021 The Concept
             </h2>
             <ul className="steps steps-vertical">
-              <li className="step step-primary text-sm">
-                January 2021: Initial Conceptualization
+              <li className="step step-accent text-[12px] lg:text-sm">
+                January : Initial Conceptualization
               </li>
-              <li className="step step-primary text-sm">
-                March 2021: Market Research Begins
+              <li className="step step-accent text-[12px] lg:text-sm">
+                March : Market Research Begins
               </li>
-              <li className="step text-sm">
-                July 2021: Feasibility Study Completed
+              <li className="step step-accent text-[12px] lg:text-sm">
+                July : Feasibility Study Completed
               </li>
-              <li className="step text-sm">October 2021: Strategic Planning</li>
+              <li className="step step-accent text-[12px] lg:text-sm">
+                October : Strategic Planning
+              </li>
             </ul>
           </div>
           <div>
@@ -210,16 +212,18 @@ export default function AboutUs() {
               2022 Laying the Foundation
             </h2>
             <ul className="steps steps-vertical">
-              <li className="step step-primary text-sm">
-                February 2022: Team Building
+              <li className="step step-accent text-[12px] lg:text-sm">
+                February : Team Building
               </li>
-              <li className="step step-primary text-sm">
-                May 2022: Service Development
+              <li className="step step-accent text-[12px] lg:text-sm">
+                May : Service Development
               </li>
-              <li className="step text-sm">
-                August 2022: Infrastructure Setup
+              <li className="step step-accent text-[12px] lg:text-sm">
+                August : Infrastructure Setup
               </li>
-              <li className="step text-sm">November 2022: Pilot Testing</li>
+              <li className="step step-accent text-[12px] lg:text-sm">
+                November : Pilot Testing
+              </li>
             </ul>
           </div>
           <div>
@@ -227,19 +231,24 @@ export default function AboutUs() {
               2023 Official Launch 🎉
             </h2>
             <ul className="steps steps-vertical">
-              <li className="step step-primary text-sm">
-                January 2023: Company Registration
+              <li className="step step-accent text-[12px] lg:text-sm">
+                January : Company Registration
               </li>
-              <li className="step step-primary text-sm">
-                March 2023: Soft Launch
+              <li className="step step-accent text-[12px] lg:text-sm">
+                {" "}
+                March : Soft Launch
               </li>
-              <li className="step text-sm">June 2023: Grand Opening</li>
-              <li className="step text-sm">
-                July 2023: Welcoming First Clients
+              <li className="step step-accent text-[12px] lg:text-sm">
+                June : Grand Opening
               </li>
-              <li className="step text-sm">Expansion of Services</li>
-              <li className="step text-sm">
-                December 2023: Recognition and Growth
+              <li className="step step-accent text-[12px] lg:text-sm">
+                July : Welcoming First Clients
+              </li>
+              <li className="step step-accent text-[12px] lg:text-sm">
+                November : Expansion of Services
+              </li>
+              <li className="step step-accent text-[12px] lg:text-sm">
+                December : Recognition and Growth
               </li>
             </ul>
           </div>
@@ -280,7 +289,8 @@ export default function AboutUs() {
                   With over 15 years of experience in healthcare management and
                   a deep commitment to compassionate care, Prawiya founded the
                   company to bring exceptional homecare services to those in
-                  need.
+                  need. She holds a Doctorate in Healthcare Administration and
+                  is known for her strategic.
                 </p>
               </div>
             </div>
@@ -298,10 +308,11 @@ export default function AboutUs() {
                 <h2 className="card-title">Dan Fieri Hernanda Kang</h2>
                 <p className="text-sm opacity-50">{`Chief Operating Officer (COO)`}</p>
                 <p className="text-justify">
-                  With over 15 years of experience in healthcare management and
-                  a deep commitment to compassionate care, Prawiya founded the
-                  company to bring exceptional homecare services to those in
-                  need.
+                  {`With a background in healthcare operations and business
+                  management, John oversees the day-to-day operations of the
+                  company, ensuring that services are delivered efficiently and
+                  effectively. His strong organizational skills and focus on
+                  process improvement are key to the company's success.`}
                 </p>
               </div>
             </div>
@@ -317,12 +328,13 @@ export default function AboutUs() {
               </figure>
               <div className="card-body">
                 <h2 className="card-title">Samuel Jason Patrick Kumenap</h2>
-                <p className="text-sm opacity-50">{`Chief Nursing Officer (CNO)`}</p>
+                <p className="text-sm opacity-50">{`Chief Marketing Officer (CMO)`}</p>
                 <p className="text-justify">
-                  With over 15 years of experience in healthcare management and
-                  a deep commitment to compassionate care, Prawiya founded the
-                  company to bring exceptional homecare services to those in
-                  need.
+                  With over 20 years of experience as a registered marketing and
+                  healthcare administrator, Jason ensures that our care
+                  standards meet the highest levels of excellence. He passion
+                  for managing marketing and expertise in clinical practice are
+                  integral to our mission.
                 </p>
               </div>
             </div>
@@ -337,13 +349,10 @@ export default function AboutUs() {
                 />
               </figure>
               <div className="card-body">
-                <h2 className="card-title">Muhammad Daffa Al Fahreza</h2>
+                <h2 className="card-title">Villaneuvo</h2>
                 <p className="text-sm opacity-50">{`Chief Information Officer (CIO)`}</p>
                 <p className="text-justify">
-                  With over 15 years of experience in healthcare management and
-                  a deep commitment to compassionate care, Prawiya founded the
-                  company to bring exceptional homecare services to those in
-                  need.
+                  {`With over 15 years of experience in IT management and healthcare technology, Villaneuvo ensures that our systems are secure, efficient, and innovative. He is dedicated to leveraging technology to enhance patient care and streamline operations.`}
                 </p>
               </div>
             </div>
